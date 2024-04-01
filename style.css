@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 550px;
+    background-image: linear-gradient(to bottom, rgba(172, 165, 34, 0.79),rgba(255, 8, 8, 0.68));
+    transition: background-color 0.5s, color 0.5s;
+
+}
+.dark-mode {
+    background-color: #060505; /* Fundo escuro */
+    color: #ffffff; /* Texto branco */}
+h1{
+    font-size: 34px;
+}
+#hamburguer{
+    position: relative;
+    left: -40px;
+    top: 39px;
+    width: 35px;
+    height: 35px;
+}
+header{
+
+    height: 110px;
+}
+.header{
+    display: inline-block;
+    position: relative;
+    left: 30%;
+}
+
+#conteiner1{
+    position: relative;
+    left: 70px;
+}
+#pesquisar{
+    position: relative;
+    left: -80px;
+    bottom: 1px;
+    height: 27px;
+    width: 190px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(205, 206, 207);
+}
+#pesquisar::placeholder{
+    position: relative;
+    left: 4px;
+    
+}
+
+/*CONFIGURAÇÃO DO MAIN*/
+
+main{
+    
+    width: 900px;
+    height: 380px;
+    margin-left:160px;
+    box-shadow: 3px 3px 6px rgba(52, 52, 52, 0.429);
+}
+
+.input {
+    position: relative;
+    top: -250px;
+    left: 80px;
+    -webkit-appearance: none;
+   /* remove default */
+    display: block;
+    margin: 10px;
+    width: 14px;
+    height: 14px;
+    border-radius: 12px;
+    cursor: pointer;
+    vertical-align: middle;
+    box-shadow: hsla(0,0%,100%,.15) 0 1px 1px, inset hsla(0,0%,0%,.5) 0 0 0 1px;
+    background-color: hsla(0,0%,0%,.2);
+    background-image: -webkit-radial-gradient( rgb(0, 0, 0) 0%, rgb(0, 0, 0) 15%, hsla(0, 0%, 3%, 0.3) 28%, hsla(200,100%,30%,0) 70% );
+    background-repeat: no-repeat;
+    -webkit-transition: background-position .15s cubic-bezier(.8, 0, 1, 1),
+      -webkit-transform .25s cubic-bezier(.8, 0, 1, 1);
+    outline: none;
+  }
+  
+  .input:checked {
+    -webkit-transition: background-position .2s .15s cubic-bezier(0, 0, .2, 1),
+      -webkit-transform .25s cubic-bezier(0, 0, .2, 1);
+  }
+  
+  .input:active {
+    -webkit-transform: scale(1.5);
+    -webkit-transition: -webkit-transform .1s cubic-bezier(0, 0, .2, 1);
+  }
+  
+  
+  
+  /* The up/down direction logic */
+  
+  .input,
+  .input:active {
+    background-position: 0 24px;
+  }
+  
+  .input:checked {
+    background-position: 0 0;
+  }
+  
+  .input:checked ~ .input,
+  .input:checked ~ .input:active {
+    background-position: 0 -24px;
+  }
