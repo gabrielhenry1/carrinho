@@ -9,10 +9,7 @@ body{
     transition: background-color 0.5s, color 0.5s;
 
 }
-.dark-mode {
-    background-color: #060505; /* Fundo escuro */
-    color: #ffffff; /* Texto branco */}
-h1{
+h1{ 
     font-size: 34px;
 }
 #hamburguer{
@@ -62,12 +59,46 @@ main{
     margin-left:160px;
     box-shadow: 3px 3px 6px rgba(52, 52, 52, 0.429);
 }
+.cxcarrinho{
+  background-color: green;
+  position: relative;
+  top: 90px;
+}
+.carrinho{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top:80px;
+  right: 30px;
+}
+.card{
+  background-color: rgb(255, 255, 255);
+  width: 170px;
+  height: 205px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left:5px ;
+  
+
+}
+#classico{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 30px;
+  
+  ;
+}
+#primeiro{
+  position: relative;
+  top: 82px;
+}
 
 .input {
     position: relative;
     top: -250px;
     left: 80px;
-    -webkit-appearance: none;
+    -webkit-appearance:none;
    /* remove default */
     display: block;
     margin: 10px;
