@@ -4,11 +4,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    height: 550px;
+    height: 103vh;
     background-image: linear-gradient(to bottom, rgba(172, 165, 34, 0.79),rgba(255, 8, 8, 0.68));
-    transition: background-color 0.5s, color 0.5s;
+    
 
 }
+
 h1{ 
     font-size: 34px;
 }
@@ -60,30 +61,36 @@ main{
     margin-left:160px;
     box-shadow: 3px 3px 6px rgba(52, 52, 52, 0.429);
 }
-
+span{
+  padding: 17px;
+  font-size: 13px;
+  font-weight: bold;
+}
 #c1{
   position: relative;
-  right: 70px;
+  top: 30px;
+  right: -40px;
 }
 #c2{
   position: relative;
-  top: 150px;
-  left: 30px;
+  top: 21px;
+  left: 45px;
 }
 #c3{
   position: relative;
-  top: 150px;
-  left: 30px;
+  top: 24px;
+  left: 45px;
 }
 #c4{
   position: relative;
-  top: 150px;
-  left: 30px;
+  top: 15px;
+  left: 35px;
 }
 #c5{
   position: relative;
-  top: 150px;
-  left: 30px;
+  top: 37px;
+  left: 36px;
+
 }
 .carrinho{
   width: 35px;
@@ -103,34 +110,86 @@ main{
   
 
 }
+
 #classico{
   width: 100px;
   height: 100px;
   position: relative;
   left: 30px;
   
-  ;
+}
+#picles{
+  width: 110px;
+  height: 110px;
+  position: relative;
+  left: 30px;
+  bottom: 4px;
+}
+
+#carne{
+  width: 110px;
+  height: 110px;
+  position: relative;
+  left: 33px;
+}
+#frango{
+  width: 120px;
+  height: 120px;
+  position: relative;
+  bottom: 7px;
+  left: 21px;
+}
+#gergelim{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 2px;
+  left: 34px;
+  
 }
 #primeiro{
   position: relative;
-  top: 66px;
+  top: 84px;
+}
+#segundo{
+  position: relative;
+  top: 94px;
+  
+}
+#terceiro{
+  position: relative;
+  top: 93px;
+}
+#quarto{
+  position: relative;
+  top:102px;
+}
+#quinto{
+  position: relative;
+  top: 80px;
+}
+#certo1{
+  position: relative;
+  top:-55px;
 }
 #certo2{
   position: relative;
-  top: 66px;
+  top: -65px;
+  left: 5px;
 
 }
 #certo3{
   position: relative;
-  top: 66px;
+  top: -61px;
+  left: 6px;
 }
 #certo4{
   position: relative;
-  top: 66px;
+  top: -69px;
 }
 #certo5{
   position: relative;
-  top: 66px;
+  top: -48px;
 
 }
 .container {

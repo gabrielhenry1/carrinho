@@ -11,24 +11,24 @@
 
         <div class="header" id="conteiner1">
             <img src="iconehamburguer.png" alt="imagem de um Hamburguer icone" id="hamburguer">
-            <h1>Hamburguer</h1>
+            <h1 id="titulo">Hamburguer</h1>
         </div>
         <div class="header">
             <input type="text" placeholder="pesquisar..." id="pesquisar">
             <img src="" alt="">
         </div>
-
+ 
     </header>
     <main>
 
-        <div id="primeiro" class="card">
+        <div id="primeiro" class="card divs div1">
             
             <img src="hamburguerclassico.jpeg" alt="foto de um hamburguer classico" id="classico">
         
-            
+                <span>hamburguer classico</span>
                 <img id="c1" class="carrinho" src="carrinho.png" alt="">
 
-                <label class="container">
+                <label id="certo1" class="container">
                     <input checked="checked" type="checkbox">
                     <div class="checkmark"></div>
                   </label>
@@ -36,11 +36,11 @@
         
         </div>
 
-        <div id="segundo" class="card">
+        <div id="segundo" class="card divs div1">
 
-            <img src="" alt="">
+            <img id="picles" src="hamburguerdecarne com picles.png"  alt="">
 
-            <span></span>
+            <span style="position: relative; top: -10px;">hamburguer c/ picles</span>
 
             
                 <img id="c2" class="carrinho" src="carrinho.png" alt="">
@@ -53,7 +53,10 @@
 
         </div>
 
-        <div id="terceiro" class="card">
+        <div id="terceiro" class="card divs div1">
+            <img src="hamburguerdecarne.png" alt="" id="carne">
+
+                <span>hamburguer de carne</span>
 
             <img id="c3" class="carrinho" src="carrinho.png" alt="">
 
@@ -64,7 +67,11 @@
 
         </div>
 
-        <div id="quarto" class="card">
+        <div id="quarto" class="card divs div1">
+
+            <img id="frango" src="hamburguerdefrangovegano.webp" alt="">
+
+            <span style="font-size: 12px; position: relative; top: -10px;">hamburguer de frango</span>
 
             <img id="c4" class="carrinho" src="carrinho.png" alt="">
 
@@ -76,7 +83,11 @@
         
         </div>
 
-        <div id="quinto" class="card">
+        <div id="quinto" class="card divs div1">
+
+            <img id="gergelim" src="hamburguergergelim.png" alt="">
+
+                <span style="font-size: 11px; position: relative; top: 11px;">hamburguer de gergelim</span>
 
             <img id="c5" class="carrinho" src="carrinho.png" alt="">
 
@@ -86,25 +97,18 @@
               </label>
 
         </div>
-
+       <div class="divs div2"></div>
+       <div class="divs div2"></div>
+       <div class="divs div2"></div>
+       <div class="divs div2"></div>
+       <div class="divs div2"></div>
     </main>
     <div class="radio-input">
-        <input name="radio" type="radio" class="input" checked="">
-        <input name="radio" type="radio" class="input">
-        <input name="radio" type="radio" class="input">
+        <input  name="grupo" value="div1" type="radio" onclick="mostrarDivs()" class="input" checked="">
+        <input  name="grupo" value="div2" onclick="mostrarDivs()" type="radio" class="input">
+        <input  name="grupo" type="radio" class="input">
       </div>
 </body>
+
+<script src="js.js"></script>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
